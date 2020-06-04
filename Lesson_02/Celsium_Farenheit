@@ -1,0 +1,5 @@
+
+C_temp = input('This program helps to convert temperature value from Celsius scale to Fahrenheit scale.\n'
+                     'Please, input Celsius temperature value: ')
+F_temp = 9/5 * float(C_temp) + 32
+print(C_temp,'grades in Celsius scale is equal to', F_temp, 'grades in Fahrenheit scale')
