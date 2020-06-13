@@ -3,7 +3,7 @@ i = 0
 while x1 > 8:
     x1 = int(input('Out of chessboard. Try again, please: '))
     i += 1
-    if i == 2:
+    if i == 2 and x1 > 8:
         print('Ok, let\'s first coordinate of start is equal 1')
         x1 = 1
         break
@@ -12,7 +12,7 @@ i = 0
 while y1 > 8:
     y1 = int(input('Out of chessboard. Try again, please: '))
     i += 1
-    if i == 2:
+    if i == 2 and y1 > 8:
         print('Ok, let\'s second coordinate of start is equal 1')
         y1 = 1
         break
@@ -21,7 +21,7 @@ i = 0
 while x2 > 8:
     x2 = int(input('Out of chessboard. Try again, please: '))
     i += 1
-    if i == 2:
+    if i == 2 and x2 > 8:
         print('Ok, let\'s first coordinate of finish is equal 3')
         x2 = 3
         break
@@ -31,7 +31,7 @@ if x2 == x1+2 or x2 == x1-2 or x2 == x1+1 or x2 == x1-1:
     while y2 > 8:
         y2 = int(input('Out of chessboard. Try again, please: '))
         i += 1
-        if i == 2:
+        if i == 2 and y2 > 8:
             print('Ok, let\'s second coordinate of finish is equal 2')
             y2 = 2
             break
