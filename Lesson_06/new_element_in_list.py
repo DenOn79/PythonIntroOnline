@@ -12,7 +12,7 @@ import random
 length = 10
 lst = [random.randint(10, 50) for _ in range(length)]
 print(lst)
-k = int(input('Input index(0 - 9): '))
+k = int(input('Input index (0 - 9): '))
 C = int(input('Input the value C: '))
 lst.append(C)
 for i in range((len(lst) - 1), k, -1):
